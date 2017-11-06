@@ -1,0 +1,337 @@
+    1  mkdir htmldemo
+    2  c9 index.html 
+    3  mkdir htmldemo2
+    4  cd htmldemo2
+    5  touch htmldemo2
+    6  c9 htmldemo2
+    7  touch htmldemo2.html
+    8  c9 htmldemo2.html
+    9  cd workspace
+   10  cd ~
+   11  cd workspace
+   12  ls
+   13  mkdir htmlLesson
+   14  cd htmlLesson
+   15  touch index.html
+   16  c9 index.html
+   17  touch style.css
+   18  c9 style.css 
+   19  ls
+   20  git init
+   21  git status
+   22  git add index.html 
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit
+   27  git commit -m "Initial Commit"
+   28  git status
+   29  git checkout index.html
+   30  git status
+   31  mkdir scripts
+   32  cd scripts
+   33  touch scripts.js
+   34  c9 scripts.js
+   35  git status
+   36  git add -A
+   37  git status
+   38  git commit -m "modify index and add scripts.js"
+   39  git remote add origin git@github.com:mrizzini/dceveninggitLesson.git
+   40  git push -u origin master
+   41  cd workspace
+   42  cd ~
+   43  cd workspace
+   44  ls
+   45  mkdir tributePage
+   46  cd tributePage
+   47  touch index.html
+   48  c9 index.html 
+   49  touch style.css
+   50  c9 style.css
+   51  cd ~
+   52  cd workspace
+   53  mkdir hello
+   54  cd hello
+   55  touch hello.rb
+   56  c9 hello
+   57  unzip git_tutorial.zip
+   58  ls
+   59  cd ..
+   60  unzip git_tutorial.zip 
+   61  cd tributePage/
+   62  git status
+   63  git -A
+   64  git status
+   65  git commit -m "tribute page"
+   66  git init
+   67  git commit -m "Initial Tribute Page"
+   68  git status
+   69  git remote add origin git@github.com:mrizzini/TributePage.git
+   70  git push -u origin master
+   71  git init
+   72  git commit -m "Tribute Page Project"
+   73  git remote add origin git@github.com:mrizzini/TributePage.git
+   74  git push -u origin master
+   75  cd workspace
+   76  cd ~
+   77  cd workspace
+   78  cd tributePaGE
+   79  cd tributePage
+   80  ls
+   81  git add .
+   82  git status
+   83  git commit -"initial tribute page commit"
+   84  git commit -m "initial tribute page commit"
+   85  git push origin
+   86  git status
+   87  git commit -m "deleted extra body tag"
+   88  git commit -a
+   89  cd git_tutorial/work/lib
+   90  cd git_tutorial/
+   91  cd work/
+   92  cd lib
+   93  cd hello
+   94  gem install rake
+   95  ls
+   96  mkdir Rakefile
+   97  cd Rakefile
+   98  touch Rakefile
+   99  c9 Rakefile
+  100  git add Rakefile
+  101  git commit -m "Added a Rakefile."
+  102  rake
+  103  git add Rakefile
+  104  git commit -m "Added a Rakefile."
+  105  rake
+  106  ..
+  107  ls -C .git
+  108  ls -C .git/objects
+  109  ls -C .git/objects/<dir>
+  110  ls -C .git/objects/01
+  111  cat .git/config
+  112  ls .git/refs
+  113  ls .git/refs/heads
+  114  ls .git/refs/tags
+  115  cat .git/refs/tags/v1
+  116  cat .git/HEAD
+  117  git hist --max-count=1
+  118  git cat-file -t 62cbf76
+  119  git cat-file -p 62cbf76
+  120  git cat-file -p c059a5d7554274940e2617504e9a40d072af3886
+  121  git cat-file -p 6f0dc38cea1a213af8429d177f662d0a85234d2f
+  122  git cat-file -p b46d20b6b749417108d75545e9616b2e8ab8f49f
+  123  git checkout -b greet
+  124  git status
+  125  c9 greeter.rb
+  126  cd lib/greeter.rb
+  127  cd greeter
+  128  cd greet
+  129  touch lib/greeter.rb
+  130  c9 lib/greeter.rb
+  131  git add lib/greeter.rb
+  132  git commit -m "Added greeter class"
+  133  cd hello.rb
+  134  git add lib/hello.rb
+  135  git commit -m "Hello uses Greeter"
+  136  git add Rakefile
+  137  git commit -m "Updated Rakefile"
+  138  git hist --all
+  139  git checkout master
+  140  cat lib/hello.rb
+  141  git checkout greet
+  142  cat lib/hello.rb
+  143  git checkout master
+  144  touch README
+  145  c9 README
+  146  git add README
+  147  git commit -m "Added README"
+  148  git hist --all
+  149  git checkout greet
+  150  git merge master
+  151  git hist --all
+  152  git checkout master
+  153  git remote add origin git@github.com:mrizzini/GitImmersion.git
+  154  git push -u origin master
+  155  cd workspace
+  156  ..
+  157  unzip sample files.zp
+  158  unzip sample files
+  159  unzip sample files.zip
+  160  unzip samplefiles.zip
+  161  unzip sample files.zip
+  162  unzip sample_files.zip
+  163  cd ~
+  164  unzip sample files.zip
+  165  cd workspace
+  166  unzip files.zip
+  167  unzip "sample files.zip"
+  168  cd round1b
+  169  mkdir newFile
+  170  cd newFile
+  171  touch index.html
+  172  c9 index.html
+  173  git init
+  174  ..
+  175  mkdir newFile
+  176  cd newFile
+  177  git init
+  178  touch index.html
+  179  c9 index.html
+  180  git add index.html
+  181  git commit -m "First Commit"
+  182  ..
+  183  mkdir newFile2
+  184  cd newFile2
+  185  touch index.html
+  186  c9 index.html
+  187  git add index.html
+  188  git init
+  189  touch index.html
+  190  c9 index.html
+  191  git add index.html
+  192  git commit -m "Create a second file inside of a new directory and modify any existing file"
+  193  ..
+  194  cd workspace
+  195  .
+  196  cd round1b
+  197  cd ~
+  198  cd workspace
+  199  unzip "sample files.zip"
+  200  cd portfolio
+  201  cd Portfolio
+  202  git init
+  203  git add .
+  204  git status
+  205  git reset HEAD Portfolio
+  206  'git reset HEAD Portfolio"
+  207  git add .
+  208  clear
+  209  d
+  210  ls
+  211  ls -a
+  212  mkdir unixstuff
+  213  ls
+  214  cd unixstuff
+  215  ls
+  216  ls -a
+  217  cd .
+  218  cd ..
+  219  pwd
+  220  ls unixstuff
+  221  ls backups
+  222  cd unixstuff
+  223  mkdir backups
+  224  cd ..
+  225  ls unixstuff/backups/
+  226  ls ~/unixstuff
+  227  ls ~
+  228  ls ~/..
+  229  cd ~/unixstuff
+  230  cd unixstuff
+  231  cp /vol/ee/ee-info/Teaching/Unix/science.txt .
+  232  cp science.txt .
+  233  cp science.txt
+  234  cp science.txt .
+  235  cp science.txt.bak
+  236  cp science.txt backups
+  237  cd backups/
+  238  mv science.txt science.bak
+  239  ..
+  240  ls
+  241  rm tempfile.txt
+  242  ls
+  243  mkdir tempstuff
+  244  rmdir tempstuff/
+  245  clear
+  246  cat science.txt
+  247  less science.txt
+  248  clear
+  249  head science.txt
+  250  head -5 science.txt
+  251  tail science.txt
+  252  tail -15 science.txt
+  253  less science.txt
+  254  clear
+  255  grep science science.txt
+  256  grep Science science.txt
+  257  grep -i science science.txt
+  258  grep -i 'spinning top' science.txt
+  259  grep -ivc science science.txt
+  260  wc -w science.txt
+  261  wc -l science.txt
+  262  cat
+  263  cat > list1
+  264  cat list1
+  265  cat > list2
+  266  cat list2
+  267  cat >> list1
+  268  cat list1
+  269  cat list1 list2 > biglist
+  270  cat biglist
+  271  sort
+  272  sort < biglist
+  273  sort < biglist > slist
+  274  cat slist
+  275  who
+  276  who > names.txt
+  277  sort < names.txt
+  278  who | sort
+  279  who | wc -l
+  280  cat list1 list2 | grep p | sort
+  281  ls list*
+  282  ls *list
+  283  ls ?list
+  284  man wc
+  285  whatis wc
+  286  apropos keyword
+  287  apropos copy
+  288  ls -l 
+  289  chmod go-rwx biglist
+  290  chmod a+rw biglist
+  291  ls -l
+  292  chmod a+rwx science.txt 
+  293  chmod a+w backups/
+  294  ls -l
+  295  ps
+  296  sleep 10
+  297  sleep 10 &
+  298  [1] 6259
+  299  sleep 1000
+  300  bg
+  301  jobs
+  302  fg [2]
+  303  fg %2
+  304  sleep 100 &
+  305  jobs
+  306  kill %1
+  307  jobs
+  308  sleep 1000 &
+  309  ps
+  310  kill 115025
+  311  ps
+  312  quota -v
+  313  df .
+  314  ..
+  315  .
+  316  ..
+  317  du -s *
+  318  ls -l science.txt
+  319  cd workspace/
+  320  cd unixstuff/
+  321  ls -l science.txt
+  322  gzip science.txt
+  323  ls -l
+  324  gunzip science.txt.gz
+  325  zcat science.txt.gz
+  326  ..
+  327  file *
+  328  cd workspace/unixstuff/
+  329  diff names.txt science.txt 
+  330  find . -name "*.txt" -print
+  331  find . -size +1M -ls
+  332  history
+  333  find . -name "*.txt" -print
+  334  touch htmldemo2
+  335  grep -ivc science science.txt
+  336  history
+  337  history >> history.txt
